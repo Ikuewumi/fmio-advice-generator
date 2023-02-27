@@ -4,7 +4,7 @@ export default defineConfig({
   plugins: [
     VitePWA({ 
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', '*.ttf', '*.png', '*.jpg', '*.jpeg', '*.svg'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', '*.ttf', '*.png', '*.jpg', '*.jpeg', 'images/*.svg'],
       manifest: {
         name: 'Advice Generator',
         short_name: 'AdviceGenerator',
